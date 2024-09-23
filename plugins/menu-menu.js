@@ -31,13 +31,13 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `“𝐇𝐨𝐥𝐚 *%name* 𝐒𝐨𝐲 𝐌𝐚𝐱𝐁𝐨𝐭, %greeting"
+  before: `“𝐇𝐨𝐥𝐚 *%name* 𝐒𝐨𝐲 𝐆𝐞𝐧𝐞𝐬𝐢𝐬𝐁𝐨𝐭, %greeting"
 
 ✧ ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬ ✧ 
 
  '︶꒦꒷♡꒷꒦︶.
 ┊✶ 𝐂𝐥𝐢𝐞𝐧𝐭𝐞: %name
-┊┊✶ 𝐁𝐨𝐭: Max bot
+┊┊✶ 𝐁𝐨𝐭: Génesis Bot
 ┊┊✶ 𝐌𝐨𝐝𝐨: Público
 ┊┊✶ 𝐓𝐢𝐞𝐦𝐩𝐨 𝐚𝐜𝐭: %muptime
 ┊┊✶ 𝐔𝐬𝐞𝐫𝐬: %totalreg
@@ -52,7 +52,7 @@ const defaultMenu = {
   footer: '╚════•.·:·.✧ ✦ ✧.·:·.*•════╝\n\n',
   after: ``,
 }
-let ppp = 'https://i.ibb.co/yf3qmqy/file.jpg'
+let ppp = 'https://i.ibb.co/48TMftG/file.jpg'
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
     let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
@@ -150,7 +150,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
-const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/429597bbfaef0479d7ca1.jpg')
+const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
   let category = "video"
   const db = './media/database/db.json'
@@ -162,8 +162,8 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegr
   const gif = await response.buffer()
  // const img = imagen1
 
-await m.react('💙') 
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '💙 ¡Max el mejor Bot!', sourceUrl: canal, thumbnail: icons }}})
+await m.react('🤍') 
+await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🤍 ¡Génesis la mejor Bot!', sourceUrl: canal, thumbnail: icons }}})
 
 // await conn.reply(m.chat, '🍟 Enviando el menú.....', m, rcanal)
 
@@ -176,7 +176,7 @@ await conn.sendFile(m.chat, ppp, 'menu.jpg', text.trim(), fakegif3, null, fake)
 }
 handler.help = ['menucompleto']
 handler.tags = ['main']
-handler.command = ['menucompleto', 'allmenú', 'allmenu'] 
+handler.command = ['menucompleto', 'allmenú', 'allmenu','menu'] 
 handler.register = true
 
 export default handler

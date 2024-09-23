@@ -25,13 +25,13 @@ global.suittag = ['50587043137']
 global.prems = []
 global.mods = []
 
-//• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
+//• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🔥
 global.packname = '𝐌𝐀𝐗 𝐁𝐎𝐓'
-global.author = '@jostin_dzn'
+global.author = '@jostin_max.bot'
 global.wm = '𝐌𝐚𝐱 𝐏𝐫𝐨'
 global.titulowm = 'MaxBot-Pro 💙'
 global.titulowm2 = 'Jostin-444'
-global.igfg = '@jostin_dzn'
+global.igfg = '@jostin_max.bot'
 global.botname = '𝐌𝐚𝐱𝐁𝐨𝐭 💙'
 global.dev = '`𝐌𝐚𝐱𝐁𝐨𝐭 💙`\n*By • 𝑱𝑶𝑺𝑻𝑰𝑵 🔥*'
 global.textbot = '𝐌𝐚𝐱 𝐁𝐨𝐭 : 𝗝𝗼𝘀𝘁𝗶𝗻 💙'
@@ -55,13 +55,13 @@ global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remote
 global.estilox = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐', orderTitle: 'packname', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.id_canal = '120363220939514640@newsletter' //-ID de canal de WhatsApp
-global.canal = 'https://whatsapp.com/channel/0029Vai2U3MAu3aRB0NYFT3h' //CANAL MAX
-global.canal2 = 'https://whatsapp.com/channel/0029Vai2U3MAu3aRB0NYFT3h' //CANAL MAX-BOT
-global.bgp = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6' //GRUPO DE AVISOS
-global.bgp2 = 'https://chat.whatsapp.com/EVl0wxlCww74HV3vvZq83a' //GRUPO GLOBAL 1
-global.bgp3 = 'https://chat.whatsapp.com/CRIhRGP6fTp78OGWCUKQVm' //GRUPO GLOBAL 2
-global.bgp4 = 'https://chat.whatsapp.com/C2at9CUaxBn80MFj2UOfU9' //GRUPO NSFW
+global.id_canal = '120363310471144301@newsletter' //-ID de canal de WhatsApp
+global.canal = 'https://whatsapp.com/channel/0029Vai2U3MAu3aRB0NYFT3h' //CANAL GENESIS
+global.canal2 = 'https://whatsapp.com/channel/0029VafjvaaEgGfOe5KdmX1n' //CANAL MAX-BOT
+global.bgp = 'https://chat.whatsapp.com/KC6Ye8u87vE0E2Lrm5cZfk' //GRUPO DE AVISOS
+global.bgp2 = 'https://chat.whatsapp.com/CRIhRGP6fTp78OGWCUKQVm' //GRUPO GLOBAL 1
+global.bgp3 = 'https://chat.whatsapp.com/C2at9CUaxBn80MFj2UOfU9' //GRUPO GLOBAL 2
+global.bgp4 = 'https://chat.whatsapp.com/DVF1w3DQKAx1bska0An8ky' //GRUPO NSFW
 global.md = 'https://github.com/Jostin-444/Maxbot' //Github Oficial
 global.ig = 'https://www.instagram.com/jostin_max.bot?igsh=MW1jcDBtMWN2dm9qeQ==' //Ig Oficial
 global.correo = 'cuenta.0.110.1001@gmail.com'
